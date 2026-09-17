@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+
+metadata:
+  name: salary-api
+  description: Salary API microservice for salary-related transactions and records
+
+  annotations:
+    github.com/project-slug: priyanshu499-ops/salary-api
+
+  tags:
+    - java
+    - spring-boot
+    - salary-api
+
+  links:
+    - url: https://github.com/priyanshu499-ops/salary-api
+      title: GitHub Repository
+      icon: github
+
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:cncf
