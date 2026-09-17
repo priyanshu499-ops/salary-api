@@ -1,0 +1,13 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Group
+
+metadata:
+  name: devops
+  description: DevOps Engineering Team
+
+spec:
+  type: team
+  profile:
+    displayName: DevOps
+  children: []
